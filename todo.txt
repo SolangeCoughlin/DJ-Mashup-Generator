@@ -1,0 +1,7 @@
+For Sprint 3:
+- make navbar
+- make drop down selection criteria section
+- make fake data to populate drop down selection criteria
+- make fake data to populate song data field that appears
+- make "Generate" button
+- make "Generate" button get data out of selection criteria?
