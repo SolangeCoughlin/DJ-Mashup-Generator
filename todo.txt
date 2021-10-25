@@ -5,7 +5,7 @@ DONE    - make drop down selection criteria section
 DONE    - make fake data to populate drop down selection criteria   
 DONE    - make fake data to populate song data field that appears
 DONE    - make "Generate" button
-        - move "generate" button up to song selection
+DONE    - move "generate" button up to song selection
         - "generate" button makes HTTP request from content (or for now, just pulls the data maybe)
-        - when generate button clicked, pick a song and display it
-        - make tutorial page have instructions on it
+        - when generate button clicked, pick a song and display it (do in http request?)
+DONE    - make tutorial page have instructions on it
