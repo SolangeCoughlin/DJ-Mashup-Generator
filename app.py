@@ -17,11 +17,14 @@ def get_dict_from_json(json_file):
 
 @app.route('/')
 def root():
-    
+    return render_template('home.html')
+
+@app.route('/display-song', methods=['POST'])
+def display_song():
     this_song_dict = get_dict_from_json('song_dict.json')["songs"]
     index = random.randrange(0, len(this_song_dict))
     song_info_keys = this_song_dict[index].keys()
-    return render_template('home.html', keys = song_info_keys, data = this_song_dict[index])
+    return render_template('display_song.html', keys = song_info_keys, data = this_song_dict[index])
 
 @app.route('/tutorial')
 def tutorial():
